@@ -1,0 +1,160 @@
+/* PrimeVue unstyled controls. One visual system for both languages and themes. */
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  appearance: none;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  line-height: 1.5;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.ui-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.ui-button:not(:disabled):active {
+  opacity: 0.74;
+}
+.ui-button:focus-visible,
+.ui-textarea:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 4px;
+}
+.ui-button .icon {
+  display: block;
+  flex: none;
+}
+.icon-button {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--surface);
+  line-height: 1;
+}
+.icon-button .icon {
+  width: 20px;
+  height: 20px;
+}
+.icon-button[data-tone='contrast'] {
+  background: var(--ink);
+  color: var(--bg);
+}
+.primary {
+  width: 100%;
+  min-height: 54px;
+  border-radius: 16px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px;
+}
+.primary .icon {
+  width: 19px;
+  height: 19px;
+}
+.text-button {
+  min-block-size: 44px;
+  padding: 10px 0;
+  background: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 550;
+}
+.text-button .icon {
+  inline-size: 16px;
+  block-size: 16px;
+}
+.menu-row {
+  width: 100%;
+  justify-content: flex-start;
+  gap: 13px;
+  padding: 18px 2px;
+  background: none;
+  text-align: start;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+}
+.menu-row > .icon {
+  width: 20px;
+  height: 20px;
+}
+.menu-row > .icon:last-child {
+  width: 16px;
+  height: 16px;
+  color: var(--secondary);
+}
+.ui-textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ui-textarea:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.ui-radio {
+  position: relative;
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+.ui-radio-input {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.ui-radio-box {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1.5px solid var(--secondary);
+  border-radius: 50%;
+  background: var(--bg);
+}
+.ui-radio-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--bg);
+  visibility: hidden;
+}
+.ui-radio[data-p-checked='true'] .ui-radio-box {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.ui-radio[data-p-checked='true'] .ui-radio-dot {
+  visibility: visible;
+}
+.ui-radio-input:focus-visible + .ui-radio-box {
+  outline: 2px solid var(--ink);
+  outline-offset: 4px;
+}
+.ui-radio[data-p-disabled='true'] {
+  opacity: 0.4;
+}
+.ui-radio-input:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,20 @@
+Solar Icon Set — Linear
+Created by 480 Design.
+
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+License: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Original artwork: https://www.figma.com/community/file/1166831539721848736
+Author repository: https://github.com/480-Design/Solar-Icon-Set
+Pinned source revision: 44017167688b49109d88ae6a98979b23d8950db0
+License reference: https://solar-icons.dev/docs/v2/community/license
+
+Changes made for this app:
+- Black stroke and fill colors are normalized to currentColor.
+- Three SVGs are packaged as named symbols in a local sprite.
+- Original paths, 24 × 24 geometry and 1.5px strokes are unchanged.
+- The semantic "check" symbol uses the author's single-check Unread.svg artwork.
+
+Attribution: Solar icons by 480 Design, CC BY 4.0. Colors adapted.
+This attribution must remain with redistributed copies of these assets.

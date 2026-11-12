@@ -1,0 +1,136 @@
+{
+  "common": {
+    "settings": "Preferences",
+    "appearance": "Appearance",
+    "close": "Close",
+    "back": "Back",
+    "gotIt": "Got it",
+    "done": "Done",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "ranna": {
+    "title": "Ranna — app lab",
+    "states": {
+      "entry": {
+        "label": "Your pager is here",
+        "title": "You’re connected.",
+        "body": "Start tracking to see your order updates.",
+        "meta": "Ready to start",
+        "control": "Opened"
+      },
+      "waiting": {
+        "label": "Preparing",
+        "title": "Take a breather.",
+        "body": "Keep this page open. We’ll update you here.",
+        "meta": "About 8–12 min",
+        "control": "Waiting"
+      },
+      "ready": {
+        "label": "Ready to collect",
+        "title": "Your order is ready.",
+        "body": "Show your order number when you collect.",
+        "meta": "Collect at {counter}",
+        "control": "Ready"
+      },
+      "collected": {
+        "label": "Picked up",
+        "title": "All yours.",
+        "body": "Enjoy your order.",
+        "meta": "Order complete",
+        "control": "Picked up"
+      }
+    },
+    "venueDetails": "Your venue",
+    "location": "Location",
+    "collection": "Pickup point",
+    "collectionHint": "Inside, to the right of the entrance.",
+    "about": "About Ranna",
+    "settingsBody": "Make yourself at home.",
+    "appearanceHint": "Light or dark, your choice",
+    "languageHint": "Layout follows your reading direction",
+    "settingsFootnote": "These choices last for this session.",
+    "appearanceBody": "Choose the appearance that feels right.",
+    "orderNumber": "Order number",
+    "pickupLabel": "Pickup",
+    "orderHint": "Show this number at pickup.",
+    "openPass": "Show pass",
+    "pass": {
+      "title": "Pickup pass",
+      "qrLabel": "Pickup QR code",
+      "codeLabel": "Pickup code",
+      "items": "Order items",
+      "quantity": "Quantity",
+      "status": {
+        "entry": "Order received",
+        "waiting": "Preparing",
+        "ready": "Ready to collect"
+      }
+    },
+    "actions": {
+      "nudge": "Ask for an update",
+      "nudged": "Update requested",
+      "nudgeHint": "You can ask once per order.",
+      "collect": "I’ve picked it up"
+    },
+    "feedback": {
+      "collected": "Picked up",
+      "title": "All yours.",
+      "body": "Thanks for stopping by {venue}.",
+      "question": "How was your visit?",
+      "comment": "Anything to add? (optional)",
+      "submit": "Send feedback",
+      "skip": "Not now",
+      "thanks": "Thanks for the feedback.",
+      "thanksBody": "See you next time.",
+      "finishedBody": "See you next time.",
+      "starLabel": "{count} of 5 stars"
+    },
+    "demoItems": {
+      "flatWhite": "Flat white",
+      "icedLatte": "Iced latte",
+      "croissant": "Butter croissant",
+      "icedMatcha": "Iced matcha latte",
+      "matchaCookie": "Matcha cookie"
+    },
+    "counter": "Counter 02",
+    "aboutBody": "Ranna is a customer pager concept. Track a fictional order from preparation to pickup.",
+    "aboutNote": "A local proof of concept. No account, live orders, or data sent.",
+    "aboutHint": "A little about this demo",
+    "start": "Track my order",
+    "scanner": {
+      "label": "QR scanner",
+      "demo": "Demo camera",
+      "demoHint": "Tap the QR to try",
+      "demoAction": "Try the QR for {venue}",
+      "opening": "Opening camera…",
+      "hint": "Point at your venue’s QR",
+      "unrecognized": "This isn’t a Ranna QR. Try your venue’s code.",
+      "unavailableTitle": "Camera isn’t available",
+      "retry": "Try again",
+      "errors": {
+        "permission": "Allow camera access in your browser settings, then try again.",
+        "missing": "We couldn’t find a camera on this device.",
+        "unsupported": "This browser doesn’t support camera scanning.",
+        "insecure": "Open Ranna over HTTPS to use your camera.",
+        "busy": "Your camera may be in use. Close the other app and try again.",
+        "unavailable": "We couldn’t open your camera. Try again in a moment."
+      }
+    },
+    "tracking": {
+      "stop": "Stop tracking",
+      "stopHint": "Return to the scanner",
+      "stopTitle": "Stop tracking this pager?",
+      "stopBody": "Your order won’t be cancelled. You can bring this pager back from Home.",
+      "keepTracking": "Keep tracking"
+    },
+    "home": {
+      "lastRemoved": "Looking for your pager?",
+      "restore": "Track again",
+      "scan": "Scan QR code",
+      "order": "Order {number}",
+      "scanHint": "Point your camera at the QR from your venue."
+    }
+  }
+}
